@@ -1,6 +1,14 @@
+<<<<<<< HEAD
+--- 
+=======
 ---
+>>>>>>> 758fb40344310416949163f594b9e7a16f39795d
 - name: Pinging all hosts by playbook
   hosts: 
     - all
   tasks:
     - action: ping
+<<<<<<< HEAD
+      
+=======
+>>>>>>> 758fb40344310416949163f594b9e7a16f39795d

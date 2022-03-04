@@ -2,7 +2,7 @@
 - name: file creation
   hosts: all
   tasks:
-  - name: test file creation
+  - name: test file Deleton
     file:
       path: "/opt/Hello-CloudGen"
       state: absent

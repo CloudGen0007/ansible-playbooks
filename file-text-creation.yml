@@ -1,0 +1,12 @@
+---
+- hosts: all
+  vars:
+    myfile: "{{ /opt/apbooks/example.txt }}"
+  tasks:
+  - name: file creating with text
+    ansible.builtin.copy:
+      dest: "{{ myfile }}"
+      content: |
+        line 1
+        line 2
+

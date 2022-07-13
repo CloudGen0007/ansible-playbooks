@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: file creation
+      file:
+        path: /opt/hell.yml
+        state: touch

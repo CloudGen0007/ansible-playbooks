@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - copy:
+        content: |
+               this is the test data for file creation
+      dest: content.text
